@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   nginx:
-    image: test
+    image: dasmaihar2017/test:latest
     container_name: my_nginx
     ports:
       - "80:80"
